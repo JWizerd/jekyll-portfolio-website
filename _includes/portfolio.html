@@ -1,0 +1,27 @@
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-sm-12 col-md-offset-1">
+                <h2><span><em>Projects</em></span></h2>
+                <ul>
+                    {% for project in site.data.projects %}
+                    <li>
+                        <figure>
+                            <img src="{{site.baseurl}}/assets/images/{{project.img}}" />
+                            <figcaption>
+                                <h3>{{ project.company }}</h3>
+                                <p>{{ project.description }}</p>
+                                <span><a title="{{ project.company }}" target="_blank" href="{{ project.link }}">
+                                View Website</a></span>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <!-- col-md-6 col-sm-12 portfolio -->
+        </div>
+        <!-- row -->
+    </div>
+    <!--  container -->
+</section>
