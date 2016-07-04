@@ -7,7 +7,8 @@
 *	4.0 - HEADER
 * 5.0 - PORTFOLIO SECTION / MAIN CONTENT
 *	6.0 - FOOTER
-* 7.0 - MEDIA
+* 7.0 - RESUME
+* 8.0 - MEDIA
 *	TO BE CONTINUED...
 *
 *
@@ -320,9 +321,17 @@
 		display: block;
 		margin: 10px 0;
 	}
+/****************************
+7.0 RESUME
+****************************/
+
+#resume-logo{
+	display: block;
+	margin: 0 auto;
+}
 
 /****************************
-7.0 MEDIA
+8.0 MEDIA
 ****************************/
 @media screen and (max-width: 400px) {
 	.header {
