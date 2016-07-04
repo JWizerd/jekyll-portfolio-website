@@ -89,7 +89,7 @@
 	}
 
 	h3 {
-		font-size: 25px;
+		font-size: 30px;
 		margin: 5px 0;
 	}
 
@@ -271,6 +271,7 @@
     line-height: 22px;
     border-bottom: 1px solid;
     margin-bottom: 10px;
+    font-size: 13px;
 	}
 
 /****************************
