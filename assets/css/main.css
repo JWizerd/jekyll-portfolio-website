@@ -192,12 +192,19 @@
 		background: rgba(51, 51, 51, .8);
 		color: #fff; 
 		z-index:1; 
+		-webkit-transition: all .3s ease-out;
+		-moz-transition: all .3s ease-out;
+		transition: all .3s ease-out;
+
 	}
 
 	.active {
 		height: 100vh;
 		left: 0;
-		transition: ease-in-out .5s;
+		-webkit-transition: all ease .3s;
+		-moz-transition: all ease .3s;
+		transition: all ease .3s;
+
 	}
 
 	nav h2, nav ul{
