@@ -5,7 +5,8 @@
 *	2.0 - TYPOGRAPHY
 *	3.0 - GENERAL
 *	4.0 - HEADER
-* 5.0 - PORTFOLIO SECTION / MAIN CONTENT
+* 5.0 - HOME - PORTFOLIO SECTION / MAIN CONTENT
+		5.1 - HOME - ABOUT
 *	6.0 - FOOTER
 * 7.0 - RESUME
 * 8.0 - MEDIA
@@ -81,22 +82,32 @@
 
 	h1 {
 		font-size: 40px;
-		margin: 10px 0;
+		margin: 10px 0 15px 0;
 	}
 
 	h2 {
 		font-size: 35px;
-		margin: 10px 0;
+		margin: 10px 0 15px 0;
 	}
 
 	h3 {
 		font-size: 30px;
-		margin: 5px 0;
+		margin: 5px 0 15px 0;
+		line-height: 40px;
 	}
 
 	a:hover {
 		text-decoration: none;
 		color: #195072;
+	}
+
+	p {
+		padding-bottom: 15px;
+		line-height: 25px;
+	}
+
+	strong {
+		font-weight: bold;
 	}
 
 /****************************
@@ -304,6 +315,17 @@
     margin-bottom: 10px;
     font-size: 13px;
 	}
+
+/****************************
+5.1 HOME - ABOUT
+****************************/
+
+.slogan {
+	text-align: center;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #666;
+	color: #fff;
+}
 
 /****************************
 6.0 FOOTER
