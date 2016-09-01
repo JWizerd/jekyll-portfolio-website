@@ -94,6 +94,11 @@
 		margin: 5px 0;
 	}
 
+	a:hover {
+		text-decoration: none;
+		color: #195072;
+	}
+
 /****************************
 3.0 GENERAL
 ****************************/
@@ -326,6 +331,9 @@
     margin: 11px auto;
 		font-family: "Roboto", sans-serif;
 		text-decoration: none;
+		-webkit-transition: ease-out .2s;
+		-moz-transition: ease-out .2s;
+		transition: ease-out .2s;
 	}
 
 	#footer #contact-button:hover {
@@ -333,6 +341,9 @@
 		background-color: #fff;
 		box-sizing: border-box;
 		border: 1px solid #333;
+		-webkit-transition: ease .2s;
+		-moz-transition: ease .2s;
+		transition: ease .2s;
 	}
 
 	footer {
