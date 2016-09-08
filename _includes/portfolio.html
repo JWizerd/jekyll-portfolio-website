@@ -3,21 +3,24 @@
         <div class="row">
             <div class="col-md-10 col-sm-12 col-md-offset-1">
                 <h2><span><em>Projects</em></span></h2>
-                <ul>
-                    {% for project in site.data.projects %}
-                    <li>
-                        <figure>
-                            <img src="{{site.baseurl}}/assets/images/{{project.img}}" />
-                            <figcaption>
-                                <h3>{{ project.company }}</h3>
-                                <p>{{ project.description }}</p>
-                                <span><a title="{{ project.company }}" target="_blank" href="{{ project.link }}">
-                                View Website</a></span>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    {% endfor %}
-                </ul>
+                <p class="hint">hint: Scroll to the right to view all projects</p>
+                <div class="projects">
+                  <ul class="project-showcase">
+                      {% for project in site.data.projects %}
+                      <li class="project">
+                          <figure>
+                              <img src="{{site.baseurl}}/assets/images/{{project.img}}" />
+                              <figcaption>
+                                  <h3>{{ project.company }}</h3>
+                                  <p>{{ project.description }}</p>
+                              </figcaption>
+                              <a class="website-link" title="{{ project.company }}" target="_blank" href="{{ project.link }}">
+                              View Website</a>
+                          </figure>
+                      </li>
+                      {% endfor %}
+                  </ul>
+                </div>
             </div>
             <!-- col-md-6 col-sm-12 portfolio -->
         </div>
