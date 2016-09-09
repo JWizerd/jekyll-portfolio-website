@@ -1,3 +1,4 @@
 markdown: kramdown
 baseurl: /jekyll-portfolio-website
 exclude: ['README.md']
+permalink: pretty
