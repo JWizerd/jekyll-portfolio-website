@@ -86,14 +86,35 @@
 	}
 
 	h2 {
-		font-size: 35px;
-		margin: 10px 0 15px 0;
+		margin: 45px auto;
+		border-bottom: 2px solid #dbdbdb;
+	}
+
+	h2 span {
+		font-size: 18px;
+		padding-bottom: 3px;
+		float: left;
+		position: relative;
+		bottom: 19px;
+	}
+
+	h2 em {
+		border-bottom: 2px solid;
+		text-transform: uppercase;
 	}
 
 	h3 {
-		font-size: 30px;
+		font-size: 18px;
+		color: #666;
 		margin: 5px 0 15px 0;
 		line-height: 40px;
+		text-decoration: underline;
+	}
+
+	h4 {
+		font-size: 18px;
+		margin: 5px 0 8px 0;
+		line-height: 30px;
 	}
 
 	a:hover {
@@ -138,6 +159,10 @@
 		margin-bottom: 0;
 	}
 
+	li {
+		margin-bottom: 10px;
+	}
+
 /****************************
 3.0 GENERAL
 ****************************/
@@ -146,29 +171,6 @@
 	}
 	section {
 		font-family: "Roboto", sans-serif;
-	}
-
-	section h2 {
-		margin: 45px auto;
-		border-bottom: 2px solid #dbdbdb;
-	}
-
-	section h2 span {
-    font-size: 18px;
-    padding-bottom: 3px;
-    float: left;
-    position: relative;
-    bottom: 19px;
-	}
-
-	section h2 em {
-		border-bottom: 2px solid;
-		text-transform: uppercase;
-	}
-
-	section h3 {
-		font-size: 18px;
-		color: #666;
 	}
 
 /****************************
@@ -386,6 +388,8 @@
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: #666;
 	color: #fff;
+	text-decoration: none;
+	font-size: 35px;
 }
 
 .jekyll {
@@ -457,6 +461,16 @@
 	margin: 0 auto 20px auto;
 }
 
+.job-date {
+	width: 100%;
+	line-height: 30px;
+}
+
+.job-date span {
+	float: right;
+	color: #333;
+}
+
 /****************************
 8.0 MEDIA
 ****************************/
@@ -499,6 +513,13 @@
 		background: url("../images/minimalist-photograph-bg_1000.jpg") no-repeat fixed;
 		background-size: auto;
 		height: 450px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.job-date span {
+		float: none;
+		display: block;
 	}
 }
 @media screen and (min-width: 651px) and (max-width: 1000px) {
