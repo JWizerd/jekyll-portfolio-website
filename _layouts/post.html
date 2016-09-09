@@ -13,18 +13,32 @@
     <link rel="icon" href="{{site.baseurl}}/favicon.ico" type="image/gif" sizes="16x16">
 </head>
 
-<body>
-  <!-- HEADER / HERO -->
-    {% include header.html %}
-  <!-- PORTFOLIO / MAIN CONTENT -->
-    <main>
-      {{content}}
-    </main>
-  <!-- Footer -->
+  <body>
+    <header>
+      <nav class="blog-nav">
+        <ul>
+          <li><a href="{{site.baseurl}}/index.html">HOME</a></li>
+          <li><a href="{{site.baseurl}}/resume.html">RESUME</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="post">
+        <div class="container">
+            <div class="row">
+                <main class="col-md-10 col-sm-12 col-md-offset-1">
+                    <h2><span><em>{{page.title}}</em></span></h2>
+                    {{content}}
+                </main><!-- col-md-10 col-sm-12 col-md-offset-1 post -->
+            </div>
+            <!-- row -->
+        </div>
+        <!--  container -->
+    </section>
+    <!-- Footer -->
     {% include footer.html %}
     <script src="{{site.baseurl}}/assets/js/bootstrap.js"></script>
     <script src="{{site.baseurl}}/assets/js/jquery.min.js"></script>
     <script src="{{site.baseurl}}/assets/js/custom.js"></script>
-</body>
+  </body>
 
 </html>
