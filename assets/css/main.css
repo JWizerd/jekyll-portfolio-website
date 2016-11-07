@@ -111,6 +111,12 @@
 		text-decoration: underline;
 	}
 
+	h3.blog-archive-title {
+		margin-bottom: 3px;
+		font-size: 2em;
+		font-family: "Amatic SC", cursive;
+	}
+
 	h4 {
 		font-size: 18px;
 		margin: 5px 0 8px 0;
@@ -124,7 +130,10 @@
 
 	small {
 		display: block;
-		text-decoration: none !important;
+	}
+
+	small.blog-archive-post-date {
+		margin-bottom: 15px;
 	}
 
 	p {
