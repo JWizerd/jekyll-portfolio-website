@@ -10,8 +10,8 @@ layout: default
               <ul>
                 {% for post in site.posts %}
                   <li>
-                    <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }} </a>
-                    <small> {{ post.date | date_to_long_string }}</small>
+                    <h3><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }} </a></h3>
+                    <small><strong>Published: {{ post.date | date_to_long_string }}</strong></small>
                     <p>{{ post.excerpt }}</p>
                   </li>
                 {% endfor %}

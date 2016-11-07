@@ -122,6 +122,10 @@
 		color: #195072;
 	}
 
+	small {
+		display: block;
+	}
+
 	p {
 		padding-bottom: 15px;
 		line-height: 25px;
