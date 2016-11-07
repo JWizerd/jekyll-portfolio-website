@@ -408,6 +408,8 @@
 ****************************/
 	.blog-nav {
 		margin-top: 30px;
+		text-align: center;
+		font-size: 20px;
 	}
 
 	.blog-nav li {
