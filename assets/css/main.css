@@ -124,7 +124,7 @@
 
 	small {
 		display: block;
-		text-decoration: none;
+		text-decoration: none !important;
 	}
 
 	p {
