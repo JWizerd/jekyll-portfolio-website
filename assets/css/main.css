@@ -406,14 +406,16 @@
 /****************************
 6.0 FOOTER
 ****************************/
-	.sticky-footer { /* class is great for pages/post without a lot of content */
-		position: absolute;
-		bottom: 0;
-		width: 100%;
-		/* Set the fixed height of the footer here */
-		height: 250px;
+	.blog-nav {
+
 	}
-	
+	.blog-nav:before {
+		content: " ::";
+	}
+	.blog-nav:first-child::before {
+		content: "";
+	}
+
 	#footer {
 		margin: 30px 0;
 	}
