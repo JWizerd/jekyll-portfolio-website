@@ -1,0 +1,40 @@
+---
+layout: post
+title: Laravel and My Experience with PHP Artistry.
+category: php
+excerpt: This is post is mainly to aid in my learning of Laravel but could be useful to somebody interested in brief introduction to Laravel and MVC frameworks in general.
+---
+
+<p>Over the past 6 weeks, I have decided to take a deep dive into PHP.</p>
+
+<h3 class="post-subheading">Some developers in the application development world would say, "Why the hell are you doing that?"</h3>
+
+<p>The developers that say this are those who are using mature server-side languages such Ruby, Python, C++ etc. and that is because PHP and it's so many well-written legacy applications live on the web (that was a joke) who are still using < PHP 4.0 which is notoriously known for its security vulnerabilities... These applications give good PHP developers a bad name. </p>
+
+<p>Laravel utilizes > PHP 5.6 which are versions of PHP that have been refactored and have patched any security features that were once apparent in the older versions. Furthermore, I am using PHP 7.0 which if you have done your research you would know that the core team has refactored the Zend engine which made PHP 7 faster than even Java in processing big data such as the Mandelbrot Algorithm (<a href="https://www.zend.com/en/resources/php7_infographic">PHP7 Performance</a>).</p>
+
+<h3>Anywho, onto the subject of this post.</h3>
+
+<p><strong>Laravel, "The Framework for Artisans"</strong> gets a lot of its inspiration from Rails, which is a Model View Controller framework built on Ruby. I am semi-familiar with Rails. My company website is written in Rails and since I did most of the front-end development I am very familiar with the V in the MVC of that framework. </p>
+
+<p>I made it a point to learn this framework thoroughly and thanks to Jeffrey at Laracasts (<a href="http://laracasts.com">Laracasts</a>) I think I have plenty of resources to dive deeply into Laravel. Plus, I took a month before started Laracasts to learn Object Oriented Programming with PHP by building a CMS Gallery Project from scratch (Thank God for Object Relation Mapping in MVC Frameworks). Don't know what Object Relational Mapping is? Look it up.</p>
+
+<p>I can really see myself being able to rapid prototype client applications with Laravel and for the most part, I would say the workflow is very intuitive. From my beginner understanding a normal workflow would look something like this:</p>
+
+<ul>
+  <li><p>map out relational data structures. Paper and pen work nicely here I hear.</p></li>
+  <li><p>create a new project by running <strong>"Laravel new project-name"</strong> in the command line</p></li>
+  <li><p>create your migration file containing your database information for reusability. then run <strong>"php artisan make:migration create_blah_table --create=blah"</strong> This command creates your Model file where all of your database specific logic will go for that given MV&amp;C. Model Logic examples could be the relational methods between different objects. </p></li>
+  <li><p>Create the controller specific to that Model by running <strong>"php artisan make:controller BlahController".</strong> The controller is the middle man between your Model (Database logic) and your view (HTML, CSS, User Interface). It holds logic such as creating new objects, Validating objects and much more I can't think of right now.</p></li>
+  <li><p>Once the controller and model are created next is creating your view. Which if you caught on previously in the post, the view is the part the user sees of your applications, the front-end. Using a visual data layer like Blade in Laravel you can access your objects and display and style your data for the user very easily in your view. It's all a blast to do but this is my favorite part. There's just something awesome about seeing your data properly being displayed on a page and knowing that it's scalable. Scalable as in there's an assuring feeling that if my applications start gaining users and activity I can watch the application scale withing that given MV&amp;C without my intervention. Maybe that's because I come from a static web design background but I love it.</p></li>
+</ul>
+
+<h3 class="post-subheading">This is the general process.</h3>
+
+<p>Of course, it get's way more complex than this and truly it can get as complex as you want but each time you're creating an application in any MVC framework you will need some way of storing data usually by using a database (I say usually because I use Jekyll and instead of using databases you utilize data files written in XML or JSON that are stored sorta like a migration file in Laravel except in a _data folder.). Once you have your database ideally you need some way of communicating between your model and view (common convention for architecture) by doing so you are creating clean, reusable code that follows a "separation of concerns" paradigm.</p>
+
+<p>Anyways, this post is mainly meant for me to start blogging about Laravel. I hear it's critical to blog about your experience with coding because it helps solidify ideas and helps the learning process.</p>
+
+<p>If you liked this post stay tuned. I will have much more coming in the future and slowly we will move onto more complex posts about the Laravel framework.</p>
+
+<h3 class="post-subheading">cheers,</br> <strong>Jeremiah</strong></h3>

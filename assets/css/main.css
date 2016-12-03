@@ -176,6 +176,11 @@
 
 	li {
 		margin-bottom: 10px;
+		list-style: circle;
+	}
+
+	.post-snippet {
+		list-style: none;
 	}
 
 /****************************
@@ -515,6 +520,46 @@
 /****************************
 8.0 MEDIA
 ****************************/
+@media screen and (max-width: 495px) {
+	.blog-nav {
+		text-align: left;
+	}
+	
+	.blog-nav li {
+		display: block;
+	}
+
+	h2 span{
+		line-height: 30px;
+		text-decoration: none;
+		bottom: 26px;
+	}
+
+	h3 {
+		line-height: 35px;
+		padding-bottom: 20px;
+		margin-top: 0;
+
+	}
+	.post-title {
+		margin-top: 80px;
+	}
+
+	li {
+		margin-bottom: 30px;
+		line-height: 20px;
+	}
+
+	li:first-child {
+		margin-top: 20px;
+	}
+
+	.post-subheading {
+		margin-top: 30px;
+		padding-bottom: 10px;
+	}
+}
+
 @media screen and (max-width: 400px) {
 	.header {
 		background: url("../images/minimalist-photograph-bg_400.jpg") no-repeat fixed;
