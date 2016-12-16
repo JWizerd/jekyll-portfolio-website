@@ -81,13 +81,13 @@
 	}
 
 	a {
-		color: coral !important;
+		color: coral;
 		font-weight: bold;
 		transition: ease-out .3s;
 	}
 
 	a:hover {
-		color: MediumVioletRed !important;
+		color: MediumVioletRed;
 		transition: ease-in .3s;
 	}
 
@@ -132,11 +132,6 @@
 		font-size: 18px;
 		margin: 5px 0 8px 0;
 		line-height: 30px;
-	}
-
-	a:hover {
-		text-decoration: none;
-		color: #195072;
 	}
 
 	small {
@@ -322,7 +317,7 @@
 	}
 
 	nav ul li a:hover {
-		color: #333;
+		color: coral;
 		transition: 200ms ease;
 		-webkit-transition: 200ms;
 		-moz-transition: 200ms;
@@ -452,10 +447,6 @@
 
 	.blog-nav li:first-child::before {
 		content: "";
-	}
-
-	.blog-nav li a {
-		color: #333;
 	}
 
 	#footer {
