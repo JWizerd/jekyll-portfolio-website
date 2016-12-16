@@ -80,6 +80,11 @@
 		font-family: "Roboto", sans-serif;
 	}
 
+	a {
+		color: coral;
+		font-weight: bold;
+	}
+
 	h1 {
 		font-size: 40px;
 		margin: 10px 0 15px 0;
@@ -104,11 +109,10 @@
 	}
 
 	h3 {
-		font-size: 18px;
+		font-size: 21px;
 		color: #666;
 		margin: 5px 0 15px 0;
 		line-height: 40px;
-		text-decoration: underline;
 	}
 
 	h3.blog-archive-title {
@@ -535,8 +539,9 @@
 		bottom: 26px;
 	}
 
-	h2 em, h2 span {
+	h2, h2 em, h2 span {
 		border-bottom: 0;
+		text-decoration: none;
 	}
 
 	h3 {
@@ -547,6 +552,7 @@
 	}
 	.post-title {
 		margin-top: 80px;
+		font-size: 35px;
 	}
 
 	li {
