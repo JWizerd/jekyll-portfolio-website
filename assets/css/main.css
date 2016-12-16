@@ -110,6 +110,14 @@
 		bottom: 19px;
 	}
 
+	ol {
+		margin-left: 20px;
+	}
+
+	ol li {
+		list-style: decimal;
+	}
+
 	h2 em {
 		border-bottom: 2px solid;
 		text-transform: uppercase;
@@ -435,9 +443,21 @@
 
 .jekyll {
 	display: block;
+	margin: 0 auto;
 	margin-top: 20px;
+	font-size: 30px;
 	text-align: center;
-	border: 1px dashed;
+	background-color: #333;
+	color: white;
+	text-transform: uppercase;
+	padding: 8px;
+	line-height: 32px;
+	transition: ease-out .3s;
+}
+
+.jekyll:hover {
+	background-color: coral;
+	transition: ease-in .3s;
 }
 
 /****************************
