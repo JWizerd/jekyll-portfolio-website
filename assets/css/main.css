@@ -545,7 +545,7 @@
 		bottom: 26px;
 	}
 
-	h2, h2 em, h2 span {
+	.post-title, h2 em, h2 span {
 		border-bottom: 0;
 		text-decoration: none;
 	}
