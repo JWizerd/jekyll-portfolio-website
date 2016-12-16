@@ -87,7 +87,7 @@
 	}
 
 	a:hover {
-		color: MediumVioletRed;
+		color: MediumVioletRed !important;
 		transition: ease-in .3s;
 	}
 
