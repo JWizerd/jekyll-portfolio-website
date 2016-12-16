@@ -81,8 +81,14 @@
 	}
 
 	a {
-		color: coral;
+		color: coral !important;
 		font-weight: bold;
+		transition: ease-out .3s;
+	}
+
+	a:hover {
+		color: MediumVioletRed;
+		transition: ease-in .3s;
 	}
 
 	h1 {
