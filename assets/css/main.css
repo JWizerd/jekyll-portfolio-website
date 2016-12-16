@@ -176,7 +176,7 @@
 
 	li {
 		margin-bottom: 10px;
-		list-style: circle;
+		list-style: none;
 	}
 
 	.post-snippet {
@@ -524,7 +524,7 @@
 	.blog-nav {
 		text-align: left;
 	}
-	
+
 	.blog-nav li {
 		display: block;
 	}
@@ -533,6 +533,10 @@
 		line-height: 30px;
 		text-decoration: none;
 		bottom: 26px;
+	}
+
+	h2 em, h2 span {
+		border-bottom: 0;
 	}
 
 	h3 {
@@ -556,7 +560,8 @@
 
 	.post-subheading {
 		margin-top: 30px;
-		padding-bottom: 10px;
+		text-decoration: none;
+		font-size: 23px;
 	}
 }
 
