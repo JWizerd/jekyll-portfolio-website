@@ -255,6 +255,7 @@
 	.header-content p {
 		color: #fcfcfc;
 		font-size: 25px;
+		text-align: center;
 	}
 
 	.header-content span {
