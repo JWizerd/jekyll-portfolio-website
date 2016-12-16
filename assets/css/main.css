@@ -89,6 +89,7 @@
 	a:hover {
 		color: MediumVioletRed;
 		transition: ease-in .3s;
+		text-decoration: none;
 	}
 
 	h1 {
