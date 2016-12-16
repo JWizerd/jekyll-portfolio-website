@@ -116,10 +116,12 @@
 	}
 
 	h2.post-title {
+		font-family: "Amatic SC", cursive;
 		margin-top: 80px;
-		font-size: 35px;
-		line-height: 45px;
-		border-bottom: 0;
+    font-size: 59px;
+    line-height: 66px;
+    border-bottom: 0;
+    font-weight: bold;
 	}
 
 	h3 {
